@@ -20,7 +20,7 @@ export const sendPrompt = async (
     // Default API configuration
     let apiEndpoint = 'https://proxy.dta.totvs.ai/v1/chat/completions';
     let headers: Record<string, string> = {
-      'Authorization': 'Bearer sk-wdHP19e-XGIgPey4yQiK4Q',
+      'Authorization': 'Bearer sk-XdC0Lx9Kwjrl2qGh5ZiHFA',
       'Content-Type': 'application/json',
     };
     let systemPrompt: string | undefined = "Você é uma assistente virtual";
